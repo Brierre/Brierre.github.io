@@ -88,7 +88,188 @@ input, select, textarea {
 		font-family: 'Yanone Kaffeesatz';
 		line-height: 1.85em;
 		font-weight: 300;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
+		background-position: top left, bottom left, auto;
+		background-size: auto, 100% 100%, cover;
+		background-attachment: fixed;
+		background-repeat: repeat, no-repeat, auto;
+		position: relative;
+		background-color: #150C07;
+		line-height: 1.75em;
+		overflow-x: hidden;
+		overflow-y: auto;
 	}
+
+			body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			body {
+				background-attachment: scroll;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			body {
+				background-attachment: scroll;
+				background-size: auto, 100% 100%, 250% auto;
+				background-repeat: repeat, no-repeat, no-repeat;
+				background-position: top left, bottom left, 50% 0%;
+			}
+
+		}
+
+	body, input, select, textarea {
+		font-family: 'Source Sans Pro';
+		font-weight: 400;
+		padding: 0;
+		font-size: 13pt;
+		color: rgba(255, 255, 255, 0.6);
+	}
+
+		@media screen and (max-width: 1680px) {
+
+			body, input, select, textarea {
+				font-size: 11pt;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			body, input, select, textarea {
+				font-size: 10pt;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			body, input, select, textarea {
+				font-size: 11pt;
+			}
+
+		}
+
+	a {
+		color: #fff;
+		color: rgba(255, 255, 255, 0.85);
+		text-decoration: none;
+		-moz-transition: color 0.25s ease-in-out;
+		-webkit-transition: color 0.25s ease-in-out;
+		-ms-transition: color 0.25s ease-in-out;
+		transition: color 0.25s ease-in-out;
+	}
+
+		a:hover {
+			color: #d64760;
+		}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 400;
+		color: #fff;
+		letter-spacing: -0.05em;
+	}
+
+	strong, b {
+		color: #fff;
+		color: rgba(255, 255, 255, 0.85);
+		font-weight: 600;
+	}
+
+/* List */
+
+	ul.icons {
+		cursor: default;
+		margin: 0 0 0.5em 0;
+	}
+
+		ul.icons li {
+			display: inline-block;
+			font-size: 1.5em;
+			margin-left: 1em;
+		}
+
+			ul.icons li span {
+				display: none;
+			}
+
+			ul.icons li a {
+				opacity: 0.35;
+				color: #fff;
+				-moz-transition: opacity 0.25s ease-in-out;
+				-webkit-transition: opacity 0.25s ease-in-out;
+				-ms-transition: opacity 0.25s ease-in-out;
+				transition: opacity 0.25s ease-in-out;
+			}
+
+				ul.icons li a:hover {
+					opacity: 1.0;
+				}
+
+			ul.icons li:first-child {
+				margin-left: 0;
+			}
+
+		@media screen and (max-width: 736px) {
+
+			ul.icons {
+				margin: 0 0 2em 0;
+			}
+
+		}
+
+/* Icons */
+
+	.icon {
+		text-decoration: none;
+		position: relative;
+		text-decoration: none;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 400;
+		}
+
+		.icon:before {
+			line-height: inherit;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+		.icon.solid:before {
+			font-weight: 900;
+		}
+
+		.icon.brands:before {
+			font-family: 'Font Awesome 5 Brands';
+		}
+
 
 	input, textarea, select {
 		color: #474f51;
