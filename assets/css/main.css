@@ -82,7 +82,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #474f51 url("images/bg03.jpg");
+		background: #D4D9DD url("images/bg03.jpg");
 		color: #474f51;
 		font-size: 13.5pt;
 		font-family: 'Yanone Kaffeesatz';
@@ -1605,21 +1605,16 @@ input, select, textarea {
 /* Content (Halcyonic)*/
 
 	#content {
-		background: #474f51 url("images/bg04.png");
+		background: #f7f7f7 url("images/bg04.png");
 		border-top: solid 1px #fff;
 		padding: 45px 0 45px 0;
 	}
 
 		#content section {
-			background: #3B4346 url("images/bg01.jpg");
-			border-bottom: solid 1px #272d30;
-			box-shadow: inset 0px -1px 0px 0px #51575a;
-			text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
-			color: #474f51;
-			font-size: 13.5pt;
-			font-family: 'Yanone Kaffeesatz';
-			line-height: 1.85em;
-			font-weight: 300;
+			background: #fff;
+			padding: 40px 30px 45px 30px;
+			box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.1);
+			margin: 0 0 25px 0;
 		}
 
 		#content h2 {
@@ -1658,13 +1653,13 @@ input, select, textarea {
 	#footer {
 		padding: 45px 0 45px 0;
 		text-shadow: 1px 1px 1px white;
-		color: #a0a8ab;
+		color: #546b76;
 		text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
 	}
 
 		#footer h2 {
 			font-size: 1.25em;
-			color: #546b76;
+			color: #212f35;
 			margin: 0 0 1em 0;
 		}
 
@@ -1690,11 +1685,16 @@ input, select, textarea {
 /* Copyright (Hybrid--Halcyonic and Parallelism)*/
 
 	#copyright {
-		background: #3B4346 url("images/bg01.jpg");
-		border-bottom: solid 1px #272d30;
-		box-shadow: inset 0px -1px 0px 0px #51575a;
-		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
-		color: #546b76;
+/*		border-top: solid 1px #b5bec3;
+		box-shadow: inset 0px 1px 0px 0px #e0e4e7;
+		text-align: center;
+		padding: 45px 0 80px 0;
+		color: #8d9ca3;
+		text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+*/
+
+		background: #D4D9DD url("images/bg03.jpg");
+		color: #474f51;
 		font-size: 13.5pt;
 		font-family: 'Yanone Kaffeesatz';
 		line-height: 1.85em;
@@ -1702,7 +1702,8 @@ input, select, textarea {
 	}
 
 		#copyright a {
-			color: #546b76;
+/*			color: #8d9ca3; */
+			color: #474f51;
 		}
 
 /* Large (Halcyonic)*/
