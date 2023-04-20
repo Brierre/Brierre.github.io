@@ -1658,13 +1658,13 @@ input, select, textarea {
 	#footer {
 		padding: 45px 0 45px 0;
 		text-shadow: 1px 1px 1px white;
-		color: #546b76;
+		color: #a0a8ab;
 		text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
 	}
 
 		#footer h2 {
 			font-size: 1.25em;
-			color: #212f35;
+			color: #546b76;
 			margin: 0 0 1em 0;
 		}
 
@@ -1694,7 +1694,7 @@ input, select, textarea {
 		border-bottom: solid 1px #272d30;
 		box-shadow: inset 0px -1px 0px 0px #51575a;
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
-		color: #474f51;
+		color: #546b76;
 		font-size: 13.5pt;
 		font-family: 'Yanone Kaffeesatz';
 		line-height: 1.85em;
@@ -1702,7 +1702,7 @@ input, select, textarea {
 	}
 
 		#copyright a {
-			color: #474f51;
+			color: #546b76;
 		}
 
 /* Large (Halcyonic)*/
