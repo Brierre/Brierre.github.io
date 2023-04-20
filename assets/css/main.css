@@ -1611,7 +1611,10 @@ input, select, textarea {
 	}
 
 		#content section {
-			background: #474f51 url("images/bg03.jpg");
+			background: #3B4346 url("images/bg01.jpg");
+			border-bottom: solid 1px #272d30;
+			box-shadow: inset 0px -1px 0px 0px #51575a;
+			text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 			color: #474f51;
 			font-size: 13.5pt;
 			font-family: 'Yanone Kaffeesatz';
@@ -1687,8 +1690,10 @@ input, select, textarea {
 /* Copyright (Hybrid--Halcyonic and Parallelism)*/
 
 	#copyright {
-
-		background: #474f51 url("images/bg03.jpg");
+		background: #3B4346 url("images/bg01.jpg");
+		border-bottom: solid 1px #272d30;
+		box-shadow: inset 0px -1px 0px 0px #51575a;
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 		color: #474f51;
 		font-size: 13.5pt;
 		font-family: 'Yanone Kaffeesatz';
