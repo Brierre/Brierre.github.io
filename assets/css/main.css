@@ -82,7 +82,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #D4D9DD url("images/bg03.jpg");
+		background: #D4D9DD url("images/bg04.jpg");
 		color: #474f51;
 		font-size: 13.5pt;
 		font-family: 'Yanone Kaffeesatz';
@@ -1611,7 +1611,7 @@ input, select, textarea {
 	}
 
 		#content section {
-			background: #D4D9DD url("images/bg03.jpg");
+			background: #D4D9DD url("images/bg04.jpg");
 			color: #474f51;
 			font-size: 13.5pt;
 			font-family: 'Yanone Kaffeesatz';
@@ -1688,7 +1688,7 @@ input, select, textarea {
 
 	#copyright {
 
-		background: #D4D9DD url("images/bg03.jpg");
+		background: #D4D9DD url("images/bg04.jpg");
 		color: #474f51;
 		font-size: 13.5pt;
 		font-family: 'Yanone Kaffeesatz';
