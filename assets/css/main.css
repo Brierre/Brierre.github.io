@@ -1611,10 +1611,12 @@ input, select, textarea {
 	}
 
 		#content section {
-			background: #fff;
-			padding: 40px 30px 45px 30px;
-			box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.1);
-			margin: 0 0 25px 0;
+			background: #D4D9DD url("images/bg03.jpg");
+			color: #474f51;
+			font-size: 13.5pt;
+			font-family: 'Yanone Kaffeesatz';
+			line-height: 1.85em;
+			font-weight: 300;
 		}
 
 		#content h2 {
